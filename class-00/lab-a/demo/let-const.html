@@ -30,8 +30,10 @@ scopeMaker();
 // In your JavaScript console, type 'global' without the quotation marks so that you can inspect the value of the variable. Keep in mind that the console is globally scoped.
 
 // 'global' works just fine.
+console.log(global); // it will give me I am a global variable
 
 // Now try the same thing with 'local'. It doesn't work because it is declared inside the function.
+console.log(local); // it will give me local is not defined
 
 // What about let and const? For the purposes of global and local scope with functions, they work exactly the same. Both of the variables declared above could have been declared with let or const and nothing would have changed.
 
