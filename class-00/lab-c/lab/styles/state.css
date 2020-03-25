@@ -1,0 +1,8 @@
+input:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #865141;
+}
