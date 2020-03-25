@@ -78,3 +78,8 @@
     text-align: center;
     color: #aaa;
   }
+
+  footer section {
+    margin: 0 auto;
+    width: 900px;
+  }
